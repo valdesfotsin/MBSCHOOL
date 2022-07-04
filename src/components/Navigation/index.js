@@ -5,7 +5,9 @@ import Form from 'react-bootstrap/Form';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
-import  '../../App.css'
+import  '../../App.css';
+import { Link } from 'react-router-dom';
+
 
 
 
@@ -14,7 +16,7 @@ const Navigation = () =>{
     return(
         <Navbar style={{ backgroundColor: '#2fa67b' }} expand="lg" fixed="top">
         <Container fluid>
-          <Navbar.Brand href="#" id="Mbschool">MBSCHOOL</Navbar.Brand>
+          <Navbar.Brand href="#" id="Mbschool"> <Link to="/" style={{color: '#fff', textDecoration: 'none'}}>MBSCHOOL</Link> </Navbar.Brand>
           <Navbar.Toggle aria-controls="navbarScroll" />
           <Navbar.Collapse id="navbarScroll">
             <Nav
@@ -23,33 +25,33 @@ const Navigation = () =>{
               navbarScroll
             >
               <NavDropdown title="Categories" id="navbarScrollingDropdown" >
-                <NavDropdown.Item href="#action3">Developpement Web</NavDropdown.Item>
+                <NavDropdown.Item href="#action3"> <Link to="/DevWeb" style={{color: 'black', textDecoration: 'none'}}>Developpement Web</Link> </NavDropdown.Item>
                 <NavDropdown.Divider />
                 <NavDropdown.Item href="#action4">
-                  Design
+                <Link to="/Design" style={{color: 'black', textDecoration: 'none'}}>Design</Link>
                 </NavDropdown.Item>
                 <NavDropdown.Divider />
                 <NavDropdown.Item href="#action5">
-                  Data Analysis
+                <Link to="/DataAnalysis" style={{color: 'black', textDecoration: 'none'}}>Data Analysis</Link>
                 </NavDropdown.Item>
                 <NavDropdown.Divider />
                 <NavDropdown.Item href="#action6">
-                  Artificial Intelligent
+                <Link to="/IA" style={{color: 'black', textDecoration: 'none'}}>Artificiel Intelligent</Link>
                 </NavDropdown.Item>
         
                 <NavDropdown.Divider />
                 <NavDropdown.Item href="#action8">
-                  Blockchain
+                <Link to="/Blockchain" style={{color: 'black', textDecoration: 'none'}}>Blockchain</Link>
                 </NavDropdown.Item>
               </NavDropdown>
 
 
-              <Nav.Link href="#action2" id="enseigner">Enseigner sur Mbschool</Nav.Link>
+              <Nav.Link href="#action2" id="enseigner"><Link to="/InscriptionEnseignant" style={{color: '#fff', textDecoration: 'none'}}>  Enseigner sur Mbschool </Link></Nav.Link>
               
               
             </Nav>
-            <Button className='me-2' variant="out-success" id="button1">Inscription</Button>
-            <Button className='me-4' variant="out-success" id="button1">Connexion</Button>
+            <Button className='me-2' variant="out-success" id="button1"> <Link to="/InscriptionEtudiant" style={{color: '#fff', textDecoration: 'none'}}>Inscription</Link> </Button>
+            <Button className='me-4' variant="out-success" id="button1"> <Link to="/ConnexionEtudiant" style={{color: '#fff', textDecoration: 'none'}}>Connexion</Link></Button>
             <Form className="d-flex">
               <Form.Control
                 type="search"

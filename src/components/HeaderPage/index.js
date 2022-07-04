@@ -13,6 +13,7 @@ import python from '../../Images/python.png';
 import python1 from '../../Images/python1.jpg';
 import python2 from '../../Images/python2.jpg';
 import Footer from '../Footer';
+import { Link } from 'react-router-dom';
 
 
 const fondEcran = {
@@ -42,27 +43,27 @@ const HeaderPage = () => {
             <div className='cours row col-xs-12 mt-4'>
                     <div className='col-md-4 col-lg-4 mb-5'>
                       <img src={image1} alt='developpement web' style={{height: '150px'}}/><br/><br/>
-                      <h2><span> Web Developpement </span></h2>
+                      <h2><span> <Link to="/DevWeb" style={{color: 'black', textDecoration: 'none'}}> Web Developpement</Link> </span></h2>
                     </div>
                     <div className='col-md-4 col-lg-4 mb-5'>
                     <img src={image2} alt='developpement web' style={{height: '150px'}}/><br/><br/>
-                      <h2><span>Design</span></h2>
+                      <h2><span><Link to="/Design" style={{color: 'black', textDecoration: 'none'}}>Design</Link> </span></h2>
                     </div>
                 <div className='col-md-4 col-lg-4 mb-5'>
                 <img src={image3} alt='developpement web' style={{height: '150px'}}/><br/><br/>
-                  <h2><span>Data Analysis</span></h2>
+                  <h2><span> <Link to="/DataAnalysis" style={{ color: 'black', textDecoration: 'none'}}>Data Analysis</Link> </span></h2>
                 </div>
                 <div className='col-md-4 col-lg-4 mb-5'>
                 <img src={image4} alt='developpement web' style={{height: '150px'}}/><br/><br/>
-                  <h2><span>Artificial Intelligence</span></h2>
+                  <h2><span>  <Link to="/IA" style={{ color: 'black', textDecoration: 'none'}}>Artificial Intelligence</Link> </span></h2>
                 </div>
                 <div className='col-md-4 col-lg-4 mb-5'>
                 <img src={image5} alt='developpement web' style={{height: '150px'}}/><br/><br/>
-                  <h2><span>Blockchain</span></h2>
+                  <h2><span> <Link to="/Blockchain" style={{ color: 'black', textDecoration: 'none'}}>Blockchain</Link> </span></h2>
                 </div>
                 <div className='col-md-4 col-lg-4 mb-5'>
                 <img src={image6} alt='developpement web' style={{height: '150px'}}/><br/><br/>
-                  <h2><span>Data Science</span></h2>
+                  <h2><span> <Link to="/DataAnalysis" style={{ color: 'black',  textDecoration: 'none'}}> Data Science </Link></span></h2>
                 </div>
               
             </div>

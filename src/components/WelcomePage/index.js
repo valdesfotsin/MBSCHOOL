@@ -13,8 +13,8 @@ const WelcomePage = () =>{
             
            <Navigation/>
            <HeaderPage/>
-           
-           
+           {/* <InscriptionEtudiant/>
+           <ConnexionEtudiant/> */}
         </div>
     )
 }
