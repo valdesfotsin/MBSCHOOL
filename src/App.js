@@ -1,14 +1,14 @@
 
 import './App.css';
 import WelcomePage from './components/WelcomePage';
-import DashboardEtudiant from './components/DashboardEtudiant'
+import Accueil from './components/DashboardEtudiant/pages/Accueil'
 
 
 function App() {
   return (
     <div className="App">
-      {/* <WelcomePage/> */}
-      <DashboardEtudiant/>
+      <WelcomePage/>
+      
     </div>
     
   );

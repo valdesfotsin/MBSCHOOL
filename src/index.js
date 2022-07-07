@@ -13,7 +13,7 @@ import Design from './components/Design';
 import DataAnalysis from './components/DataAnalysis';
 import IA from './components/IA';
 import Blockchain from './components/Blockchain';
-import Dashboard from './components/DashboardEtudiant/pages/Accueil';
+import Accueil from './components/DashboardEtudiant/pages/Accueil';
 import Setting from './components/DashboardEtudiant/pages/Setting'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -24,7 +24,8 @@ root.render(
       <BrowserRouter>
             <Routes>
               <Route exact path='/' element={<App/> }/>
-              <Route path='Dashboard' element={<Dashboard/>}/>
+            
+              <Route path='Dashboard' element={<Accueil/>}/>
               <Route path='Setting' element={<Setting/>}/>
               <Route  path='InscriptionEtudiant' element={<InscriptionEtudiant/> }/>
               <Route  path='InscriptionEnseignant' element={<InscriptionEnseignant/> }/>
