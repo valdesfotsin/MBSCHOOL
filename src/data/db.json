@@ -1,0 +1,65 @@
+{
+  "users": [
+    {
+      "email": "valdesfotsin@gmail.com",
+      "password": "$2a$10$oWuRt1JAMD6lKnGq0PiSeO.CbXQIZRhlai/tDlvl3G0nEcLYYyhVm",
+      "nom": "Gérald Valdez",
+      "Location": "Douala",
+      "sexe": "Homme",
+      "tel": "",
+      "photo": "C:\\fakepath\\python.png",
+      "Tel": "5",
+      "id": 1
+    },
+    {
+      "email": "valdeskamdem@gmail.com",
+      "password": "$2a$10$env6/ibSWlqkbfOrsXmVnOLTP2uenvAXSL15Dv/CLtHbJ6lhNChOq",
+      "nom": "Gerald kamdem",
+      "Location": "Douala",
+      "sexe": "Femme",
+      "tel": "695523782",
+      "photo": "C:\\fakepath\\python.png",
+      "id": 2
+    },
+    {
+      "email": "kamgasteve@gmail.com",
+      "password": "$2a$10$RjDENRwYiEHjc6Vz8SKjqu3s8.QmLfWk9KD8o7p8xp1mu7vErMiSy",
+      "nom": "kamga steve",
+      "Location": "Douala",
+      "sexe": "Homme",
+      "tel": "695523782",
+      "photo": "C:\\fakepath\\logoPython.png",
+      "id": 3
+    },
+    {
+      "email": "kr@gmail.com",
+      "password": "$2a$10$OvcpUFWcFyyzy.HCu0gz5eZKSboiyFE3X/bH9jLsDv1kfveyGu/9m",
+      "nom": "kamga rigoberd",
+      "Location": "Bafoussam",
+      "sexe": "Homme",
+      "tel": "698823256",
+      "photo": "C:\\fakepath\\logoPython.png",
+      "id": 4
+    },
+    {
+      "email": "gtyvfty@kijkhnui",
+      "password": "$2a$10$T7BCieclVF2ANfGcr5553OsHwP/V1lng8m/Z3DrJH3ho2/jBFewqy",
+      "nom": "6tggt67tt67",
+      "Location": "789y7y",
+      "sexe": "Femme",
+      "tel": "575855454",
+      "photo": "C:\\fakepath\\chaine-de-blocs.png",
+      "id": 5
+    },
+    {
+      "email": "gerald@yahoo.com",
+      "password": "$2a$10$NQLjiFP5lF7GwzpOR7ktHuQuTaFBYvIEgLT8NDY.Z3HVmPEXW879q",
+      "nom": "Gérald",
+      "Location": "Bafoussam",
+      "sexe": "Homme",
+      "tel": "789456",
+      "photo": "C:\\fakepath\\blockchain.png",
+      "id": 6
+    }
+  ]
+}

@@ -104,7 +104,7 @@ const HeaderPage = () => {
             <Button variant="success fw-bold fs-5">Start Teaching today</Button>
            </div>   
         </div>   
-
+0 
         <div className='coursPython'>
           <div className='col-xs-12 pt-5'>
             <h2 className=' mb-4'>Expand your career opportunities with Python </h2>

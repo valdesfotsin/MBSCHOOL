@@ -47,12 +47,12 @@ const InscriptionEnseignant = () =>{
                    
                     <div className="mb-3">
                         <label for="cv" className="form-label">CV</label>
-                        <input type="text" id="cv" className="form-control" aria-describedby="user"/>
+                        <input type="file" id="cv" className="form-control" name='userfile' aria-describedby="user"  accept="application/pdf, application/vnd.ms-excel"/>
                     </div>
 
                     <div className="mb-3">
                         <label for="localisation" className="form-label">Photo</label>
-                        <input type="text" id="email" className="form-control" aria-describedby="user"/>
+                        <input type="file" id="email" className="form-control" aria-describedby="user" accept="image/*"/>
                     </div>
                    
 

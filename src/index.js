@@ -13,6 +13,13 @@ import Design from './components/Design';
 import DataAnalysis from './components/DataAnalysis';
 import IA from './components/IA';
 import Blockchain from './components/Blockchain';
+import DashboardEtd from './components/DashboardEtud';
+import Cours from './components/DashboardEnseignant/Pages/Cours';
+import Communication from './components/DashboardEnseignant/Pages/Communication';
+import Performance from './components/DashboardEnseignant/Pages/Performance';
+import Outils from './components/DashboardEnseignant/Pages/Outils';
+import Ressources from './components/DashboardEnseignant/Pages/Ressources';
+import DashboardEns from './components/DashboardEnseignant';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -30,7 +37,13 @@ root.render(
               <Route path='DataAnalysis' element={<DataAnalysis/> } />
               <Route path='IA' element={<IA/> } />
               <Route path='Blockchain' element={<Blockchain/> } />
-
+              <Route path='DashboardEtd' element={<DashboardEtd/> } />
+              <Route path='Cours'  element={<Cours/> } />
+              <Route path='Communication' element={<Communication/> } />
+              <Route path='Performance' element={<Performance/> } />
+              <Route path='Outils' element={<Outils/> } />
+              <Route path='Ressources' element={<Ressources/> } />
+              <Route path='DashboardEns' element={<DashboardEns/> } />
             </Routes>
         </BrowserRouter>
         
