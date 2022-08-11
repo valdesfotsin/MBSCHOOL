@@ -1,9 +1,10 @@
 #div1{
     margin: 200px 100px 0px 100px;
     background-color: #fff;
-    padding: 50px 0px 50px 0px;
+    padding: 20px 0px 20px 0px;
     box-shadow: 5px 5px 5px #585858;
-    border: 0.5px solid black
+    border: 0.5px solid black;
+    
 }
 
 #div2{
@@ -20,4 +21,21 @@
     padding: 50px 0px 50px 0px;
     box-shadow: 5px 5px 5px #585858;
     border: 0.5px solid black;
+}
+#com1{
+    height: 200px;
+}
+.outils{
+    border: 1px solid black;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.icons{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.outils:hover{
+    background-color:#d6d6d6;
 }

@@ -25,22 +25,22 @@ const Navigation = () =>{
               navbarScroll
             >
               <NavDropdown title="Categories" id="navbarScrollingDropdown" >
-                <NavDropdown.Item href="#action3"> <Link to="/DevWeb" style={{color: 'black', textDecoration: 'none'}}>Developpement Web</Link> </NavDropdown.Item>
+                <NavDropdown.Item href="#"> <Link to="/DevWeb" style={{color: 'black', textDecoration: 'none'}}>Developpement Web</Link> </NavDropdown.Item>
                 <NavDropdown.Divider />
-                <NavDropdown.Item href="#action4">
+                <NavDropdown.Item href="#">
                 <Link to="/Design" style={{color: 'black', textDecoration: 'none'}}>Design</Link>
                 </NavDropdown.Item>
                 <NavDropdown.Divider />
-                <NavDropdown.Item href="#action5">
+                <NavDropdown.Item href="#">
                 <Link to="/DataAnalysis" style={{color: 'black', textDecoration: 'none'}}>Data Analysis</Link>
                 </NavDropdown.Item>
                 <NavDropdown.Divider />
-                <NavDropdown.Item href="#action6">
+                <NavDropdown.Item href="#">
                 <Link to="/IA" style={{color: 'black', textDecoration: 'none'}}>Artificiel Intelligent</Link>
                 </NavDropdown.Item>
         
                 <NavDropdown.Divider />
-                <NavDropdown.Item href="#action8">
+                <NavDropdown.Item href="#">
                 <Link to="/Blockchain" style={{color: 'black', textDecoration: 'none'}}>Blockchain</Link>
                 </NavDropdown.Item>
               </NavDropdown>
