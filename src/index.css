@@ -13,6 +13,11 @@ code {
 }
 
 @font-face {
-  font-family: 'Fredoka One';
-  src: local('Fredoka One'), url(./fonts/Fredoka_One/FredokaOne-Regular.ttf) format('truetype');
+  font-family: 'Rubik Dirt';
+  src: local('Rubik Dirt'), url(./fonts/Rubik_Dirt/RubikDirt-Regular.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Rubik Marker Hatch';
+  src: local('Rubik Marker Hatch'), url(./fonts/Rubik_Marker_Hatch/RubikMarkerHatch-Regular.ttf) format('truetype');
 }

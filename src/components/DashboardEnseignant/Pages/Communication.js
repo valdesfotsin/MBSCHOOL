@@ -1,7 +1,7 @@
 import React from 'react'
 import Footer from '../../Footer';
 import Navbar from '../Navbar';
-import pub1 from '../../../Images/pub1.jpg';
+import pub1 from '../../../Images/pub1m.jpg';
 
 
 const  pub22 = {

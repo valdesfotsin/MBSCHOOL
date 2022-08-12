@@ -1,17 +1,17 @@
 import React from 'react';
 import  '../../App.css';
-import images from '../../Images/image2.jpg';
+import images from '../../Images/image2m.jpg';
 import image1 from '../../Images/developpement-web.png';
 import image2 from '../../Images/designer-graphique.png';
 import image3 from '../../Images/big-data.png';
 import image4 from '../../Images/plan-de-developpement.png';
 import image5 from '../../Images/blockchain.png';
 import image6 from '../../Images/science-des-donnees.png';
-import enseignant from '../../Images/enseignant.jpg';
+import enseignant from '../../Images/enseignantm.jpg';
 import Button from 'react-bootstrap/Button';
-import python from '../../Images/python.png';
-import python1 from '../../Images/python1.jpg';
-import python2 from '../../Images/python2.jpg';
+import python from '../../Images/image1m.jpg';
+import python1 from '../../Images/python1m2.jpg';
+import python2 from '../../Images/python2m.jpg';
 import Footer from '../Footer';
 import { Link } from 'react-router-dom';
 
@@ -111,28 +111,28 @@ const HeaderPage = () => {
             <p className=''>Take one of Udemy’s range of Python courses and learn how to code using this incredibly useful language. <br/> Its simple syntax and readability makes Python perfect for Flask, Django, data science, and machine learning.<br/> You’ll learn how to build everything from games to sites to apps. Choose from a range of courses that will appeal to</p>
             <Button variant="success fw-bold fs-5   justify-content-xs-start mb-5 \">Explore Python</Button>
             
-            <div className='row mb-5'>
-              <div className='col-xs-12 col-lg-2 offset-lg-2 ' style={{paddingLeft: '0', paddingRight: '0'}} id='python'> 
-                <img src={python} alt="pythoncours" style={{maxHeight: '100%', maxWidth:'100%'}} /> 
-                <div className='card-body'>
-                <p className='card-text ' style={{color: 'white'}}> <h4 className='fw-bold '>Learn Python </h4>  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat beatae sit amet consectetur </p>
+            <div className='row mb-5 justify-content-center mx-5'>
+            <div className='col-xs-12 col-lg-2 mx-5 mb-5' style={{paddingLeft: '0', paddingRight: '0'}} id='python'> 
+                <img src={python} style={{maxHeight: '100%', maxWidth:'100%'}}  alt="pythoncours"   />
+                <div className='card-body pt-3'>
+                <p className='card-text '> <h4 className='fw-bold '>Learn Python </h4>  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat beatae sit amet consectetur </p>
                 </div>
               </div>
-              <div className='col-xs-12 col-lg-2 mx-5 ' style={{paddingLeft: '0', paddingRight: '0'}} id='python'> 
+              <div className='col-xs-12 col-lg-2  mb-5' style={{paddingLeft: '0', paddingRight: '0'}} id='python'> 
                 <img src={python1} style={{maxHeight: '100%', maxWidth:'100%'}}  alt="pythoncours"   />
-                <div className='card-body'>
+                <div className='card-body pt-3'>
                 <p className='card-text '> <h4 className='fw-bold '>Learn Python </h4>  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat beatae sit amet consectetur </p>
                 </div>
               </div>
 
-              <div className='col-xs-12 col-lg-2 mx-5' style={{paddingLeft: '0', paddingRight: '0'}}  id='python'> 
+              <div className='col-xs-12 col-lg-2 mx-5 mb-5' style={{paddingLeft: '0', paddingRight: '0'}}  id='python'> 
                 <img src={python2} alt="pythoncours"  style={{maxHeight: '100%', maxWidth:'100%'}} />
-                <div className='card-body'>
+                <div className='card-body pt-3'>
                   <p className='card-text '> <h4 className='fw-bold '>Learn Python </h4>  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat beatae sit amet consectetur </p>
                 </div>
               </div>
 
-              <div className=' offset-lg-3'></div>
+              <div className=' '></div>
              
 
             </div>
