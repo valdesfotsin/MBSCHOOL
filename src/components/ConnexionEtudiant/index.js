@@ -58,7 +58,8 @@ const ConnexionEtudiant = () =>{
                 </div>
 
                 <div className="d-flex justify-content-center mb-5">
-                    <Button className="btn btn-success me-3 col-xs-3 fw-bold " type="submit" style={{width: '500px' , height: '70px'}}> <Link to="/DashboardEtd" style={{  textDecoration: 'none', color: '#fff'}}><span>SE CONNECTER</span>  </Link>  </Button>
+                    <Button className="btn btn-success me-3 col-xs-3 fw-bold " type="submit" style={{width: '500px' , height: '70px'}}> <span>SE CONNECTER</span>   </Button>
+                    {/* <Link to="/DashboardEtd" style={{  textDecoration: 'none', color: '#fff'}}></Link> */}
                 </div>
 
                 <p className='text-center'>Vous avez oublié votre mot de passe, ou Vous n'avez pas de compte</p>

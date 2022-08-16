@@ -106,7 +106,8 @@ const InscriptionEtudiant = () =>{
                     </div>
 
                    <div className="d-flex justify-content-center mb-3">
-                    <Button type="submit"  className="btn btn-success me-3 fw-bold"  style={{width: '300px' , height: '50px'}}>  <Link to="/ConnexionEtudiant" style={{color: '#fff', textDecoration: 'none'}}>INSCRIVEZ-VOUS</Link> </Button>
+                    <Button type="submit"  className="btn btn-success me-3 fw-bold"  style={{width: '300px' , height: '50px'}}>INSCRIVEZ-VOUS </Button>
+                    {/* <Link to="/ConnexionEtudiant" style={{color: '#fff', textDecoration: 'none'}}<Link/> */}
                     
                    </div> 
 

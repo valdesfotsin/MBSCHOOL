@@ -52,13 +52,13 @@
       "id": 5
     },
     {
-      "email": "gerald@yahoo.com",
-      "password": "$2a$10$NQLjiFP5lF7GwzpOR7ktHuQuTaFBYvIEgLT8NDY.Z3HVmPEXW879q",
-      "nom": "Gérald",
-      "Location": "Bafoussam",
+      "email": "martinLuther@gmail.com",
+      "password": "$2a$10$kRrwywdXGvNjUw82TegmXOAkfmQiS5RAogH6Al7OfHDBCiBalphL2",
+      "nom": "Martin Luther",
+      "Location": "Douala",
       "sexe": "Homme",
-      "tel": "789456",
-      "photo": "C:\\fakepath\\blockchain.png",
+      "tel": "6955862316",
+      "photo": "C:\\fakepath\\images (9).jfif",
       "id": 6
     }
   ]
