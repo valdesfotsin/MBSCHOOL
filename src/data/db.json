@@ -60,6 +60,56 @@
       "tel": "6955862316",
       "photo": "C:\\fakepath\\images (9).jfif",
       "id": 6
+    },
+    {
+      "email": "georgebush@gmail.com",
+      "password": "$2a$10$svYdcvkBu00kkU/eNDhWc.9X4liGGN1KNCzx9cwnQ2BqPVYJ1kWgy",
+      "nom": "george bush",
+      "Qualification": "BTS",
+      "tel": "695582345",
+      "cv": "C:\\fakepath\\mpdf.pdf",
+      "photo": "C:\\fakepath\\images (13).jfif",
+      "id": 7
+    },
+    {
+      "email": "martinLuthericc@gmail.com",
+      "password": "$2a$10$zgVg3/BAEZtPUs6wBw1rNejUaIsiYo8LK7IYw2jujTW..A0x/sE92",
+      "nom": "Martin LutherTeach",
+      "Qualification": "Licence",
+      "tel": "655892345",
+      "cv": "C:\\fakepath\\mpdf.pdf",
+      "photo": "C:\\fakepath\\images (13).jfif",
+      "id": 8
+    },
+    {
+      "email": "antoniogerald@gmail.com",
+      "password": "$2a$10$lYxI/9Q8ilpQlXSx/d4dl.wYjJ2gZbiVoRdrGlE.yojNrqy16T0pa",
+      "nom": "antoniogerald",
+      "Qualification": "BTS",
+      "tel": "655487998",
+      "cv": "C:\\fakepath\\mpdf.pdf",
+      "photo": "C:\\fakepath\\images (13).jfif",
+      "id": 9
+    },
+    {
+      "email": "kamgaroland@gmail.com",
+      "password": "$2a$10$V3XZUzDuejvNs97BPKa6S.O7tGbjRZgFu2RMEjjhxAPB.ZF6mC4mO",
+      "nom": "kamga roland",
+      "Location": "Douala",
+      "sexe": "Homme",
+      "tel": "695523782",
+      "photo": "C:\\fakepath\\images (9).jfif",
+      "id": 10
+    },
+    {
+      "email": "borisricardo@gmail.com",
+      "password": "$2a$10$1MPJjTPJvFwjOh7mIUVXJutK07hlqqnZZTBSgLy9.ufJMO62wABP6",
+      "nom": "boris ricardo",
+      "Qualification": "bepc",
+      "tel": "696621345",
+      "cv": "C:\\fakepath\\Gerald Valdez competence Tech.pdf",
+      "photo": "C:\\fakepath\\images (13).jfif",
+      "id": 11
     }
   ]
 }

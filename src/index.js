@@ -20,7 +20,11 @@ import Performance from './components/DashboardEnseignant/Pages/Performance';
 import Outils from './components/DashboardEnseignant/Pages/Outils';
 import Ressources from './components/DashboardEnseignant/Pages/Ressources';
 import DashboardEns from './components/DashboardEnseignant';
-
+import ConnexionEnseignant from './components/ConnexionEnseignant';
+import DashbordEtd from './components/DashboardEtud';
+import CoursSuivis from './components/DashboardEtud/Pages/CoursSuivis';
+import CoursDisponible from './components/DashboardEtud/Pages/CoursDisponible';
+import Certification from './components/DashboardEtud/Pages/Certification';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   
@@ -29,6 +33,11 @@ root.render(
       <BrowserRouter>
             <Routes>
               <Route exact path='/' element={<App/> }/>
+              <Route path='DashboardEtd' element={<DashbordEtd/> } />
+              <Route path='CoursSuivis' element={<CoursSuivis/> } />
+              <Route path='Certification' element={<Certification/> } />
+              <Route path='CoursDisponible' element={<CoursDisponible/> } />
+              <Route  path='ConnexionEnseignant' element={<ConnexionEnseignant/> }/>
               <Route  path='InscriptionEtudiant' element={<InscriptionEtudiant/> }/>
               <Route  path='InscriptionEnseignant' element={<InscriptionEnseignant/> }/>
               <Route path='ConnexionEtudiant' element={<ConnexionEtudiant/> } />
@@ -44,6 +53,7 @@ root.render(
               <Route path='Outils' element={<Outils/> } />
               <Route path='Ressources' element={<Ressources/> } />
               <Route path='DashboardEns' element={<DashboardEns/> } />
+              
             </Routes>
         </BrowserRouter>
         

@@ -7,7 +7,7 @@ import { useState } from "react"
 import { Link, useNavigate } from 'react-router-dom';
 
 
-const ConnexionEtudiant = () =>{
+const ConnexionEnseignant = () =>{
 
     const navigate = useNavigate();
 
@@ -21,7 +21,7 @@ const ConnexionEtudiant = () =>{
         }else if (infoData === 'Incorrect password'){
             seterror('password invalide')
         }else{
-            navigate('/CoursSuivis')
+            navigate('/Cours')
         }
         console.log(infoData)
     }
@@ -55,25 +55,23 @@ const ConnexionEtudiant = () =>{
     return(
         <>
         <Navigation/>
-        <body className=" container mt-5" style={{paddingTop: '60px', marginBottom: '300px'}}>
+        <body className="container  mt-5" style={{marginBottom: '300px'}}>
       
-        <div>
-            <div className=" " id="connexion">
-            <Form onSubmit={e => handleSubmit(e)} className="row justify-content-lg-center  bg-dark text-light mt-5" >
-            <h1 className="text-center pb-3">Connexion </h1>
-            <div className='mb-3 d-flex justify-content-center' style={{width: '600px'}}>
+        <div className="row" id="connexion">
+        <div className="   col-xs-12 col-lg-12  d-flex justify-content-center bg-dark text-light mt-5">
+            <Form onSubmit={e => handleSubmit(e)}>
+                <div className="mb-3 mt-3 ">
+                <h1 className="text-center pb-3">Connexion </h1>
+                <div className='mb-3'>
 							{error && <div className='alert alert-danger'>{error}</div>}
 						</div>
-                <div className="mb-3 d-flex justify-content-center  mt-3 col-xs-12 col-lg-12">
-                
-                
-                    <label for="email" className="form-label"></label> 
-                    <input type="email" className="form-control" id="email" placeholder='email' style={{width: '600px'}} aria-describedby="email" required value={formData.email} name='email' onChange={e => handleChange(e)}/>
+                    <label for="email" className="form-label">Email</label>
+                    <input type="email" className="form-control" id="email" aria-describedby="email" required value={formData.email} name='email' onChange={e => handleChange(e)}/>
                 </div>
 
-                <div className="mb-3 d-flex justify-content-center col-xs-12 col-lg-12">
-                    <label for="password" className="form-label"></label>
-                    <input type="password" className="form-control" id="password" placeholder='email' style={{width: '600px'}} aria-describedby="password" required  placeholder='Password' value={formData.password} name='password' onChange={e => handleChange(e)}/>
+                <div className="mb-3">
+                    <label for="password" className="form-label">mot de passe</label>
+                    <input type="password" className="form-control" id="password" aria-describedby="password" required  placeholder='Password' value={formData.password} name='password' onChange={e => handleChange(e)}/>
 
                 </div>
 
@@ -95,4 +93,4 @@ const ConnexionEtudiant = () =>{
     )
 }
 
-export default ConnexionEtudiant;
+export default ConnexionEnseignant;

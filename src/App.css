@@ -58,19 +58,58 @@
   color:#fff;
 } */
 .pub{
-  background-color: #2fa67b; 
+  background-image: url('Images/pubpng.PNG');
+  background-position: center;
+  background-size: cover;
+  /* background-color: #2fa67b;  */
   height: 200px;
   margin: 0px 450px 0px 450px;
-  font-size: 35px;
+  /* font-size: 35px;
   font-family:Arial, Helvetica, sans-serif;
   font-weight: bold;
   padding-top: 25px;
-  color: #fff;
+  color: #fff; */
   position: relative;
   top: 300px;
   right: 360px;
   box-shadow: 10px 10px 5px #585858;
   
+}
+.pubpara{
+  display: flex;
+}
+@media (max-width: 500px){
+  .pub{
+    display: none;
+  }
+  .navacceuil{
+    
+  }
+  #navbarScroll{
+    padding-bottom: 50px;
+    background-color: rgb(47, 166, 123);
+    
+    
+  }
+  #navbarScroll > div > div{
+    margin-right: 40px;
+    margin-left: 40px;
+    width: 300px;
+}
+  }
+
+
+@media (max-width: 992px){
+  #navbarScroll{
+    padding-bottom: 50px;
+    background-color: rgb(47, 166, 123);
+  }
+
+  #navbarScroll > div > div{
+    margin-right: 40px;
+    margin-left: 40px;
+    width: 300px;
+}
 }
 
 #button1{
@@ -113,3 +152,9 @@
     font-size: 3rem;
 
 } */
+.enseignantpub{
+  background-image: url('Images/enseignantm.jpg');
+  background-position: center;
+  background-size: cover;
+  height: 80vh;
+}

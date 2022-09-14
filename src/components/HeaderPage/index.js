@@ -7,7 +7,7 @@ import image3 from '../../Images/big-data.png';
 import image4 from '../../Images/plan-de-developpement.png';
 import image5 from '../../Images/blockchain.png';
 import image6 from '../../Images/science-des-donnees.png';
-import enseignant from '../../Images/enseignantm.jpg';
+// import enseignant from '../../Images/enseignantm.jpg';
 import Button from 'react-bootstrap/Button';
 import python from '../../Images/image1m.jpg';
 import python1 from '../../Images/python1m2.jpg';
@@ -32,7 +32,7 @@ const HeaderPage = () => {
     <div className=' mt-5 row' id="acceuil" >
         <div className='col-sm-12' style={fondEcran}>
             <div className='pub col-xs-12'>
-                <p>Debutez votre Apprentissage sur Mbschool. Et plongez-vous dans l'univers du Numerique</p>
+                {/* Debutez votre Apprentissage sur Mbschool. Et plongez-vous dans l'univers du Numerique */}
             </div>
         </div>
         <div className='categories mt-5 mb-4'>
@@ -97,8 +97,9 @@ const HeaderPage = () => {
 
               </div>
             </div>
+            {/* <img src={enseignant} alt="enseignantPub" style={{height: '400px'}} id="enseignantpub"/> */}
         <div className='enseignant row ' style={{paddingTop: '100px', paddingBottom: '50px'}}>
-            <div className='col-xs-12 col-lg-4 offset-lg-2'> <img src={enseignant} alt="enseignantPub" style={{height: '400px'}}/> </div> 
+            <div className='col-xs-12 col-lg-4 offset-lg-2 enseignantpub'>  </div> 
             <div className='col-xs-12 col-lg-4 pt-5'> <h1>Become an instructor</h1> <p className='fs-4'>Instructors from around the world teach millions of students on Mbschool. We provide the tools and skills to teach what you love.  </p>
 
             <Button variant="success fw-bold fs-5">Start Teaching today</Button>

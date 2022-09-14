@@ -14,7 +14,7 @@ import { Link } from 'react-router-dom';
 const Navigation = () =>{
 
     return(
-        <Navbar style={{ backgroundColor: '#2fa67b' }} expand="lg" fixed="top">
+        <Navbar style={{ backgroundColor: '#2fa67b' }} expand="lg" fixed="top" className='navacceuil'>
         <Container fluid>
           <Navbar.Brand href="#" id="Mbschool"> <Link to="/" style={{color: '#fff', textDecoration: 'none'}}>MBSCHOOL</Link> </Navbar.Brand>
           <Navbar.Toggle aria-controls="navbarScroll" />

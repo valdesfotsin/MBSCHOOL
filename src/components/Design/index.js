@@ -17,6 +17,11 @@ import html20 from '../../Images/html20.jfif';
 import html21 from '../../Images/html21.jfif';
 import html22 from '../../Images/html23.jfif';
 import Footer from '../Footer';
+import Slider from "react-slick";
+import "slick-carousel/slick/slick.css"; 
+import "slick-carousel/slick/slick-theme.css";
+import { dataDigitalBestSeller } from './data';
+import './Pages.css';
 
 const publicité = {
   backgroundImage: `url(${pub2})`,
@@ -29,6 +34,40 @@ const publicité = {
 }
 
 const Design = () => {
+    const settings = {
+        dots: true,
+        infinite: false,
+        speed: 500,
+        slidesToShow: 4,
+        slidesToScroll: 4,
+        initialSlide: 0,
+        responsive: [
+          {
+            breakpoint: 1024,
+            settings: {
+              slidesToShow: 3,
+              slidesToScroll: 3,
+              infinite: true,
+              dots: true
+            }
+          },
+          {
+            breakpoint: 600,
+            settings: {
+              slidesToShow: 2,
+              slidesToScroll: 2,
+              initialSlide: 2
+            }
+          },
+          {
+            breakpoint: 480,
+            settings: {
+              slidesToShow: 1,
+              slidesToScroll: 1
+            }
+          }
+        ]
+      };
   return (
     <>
 
@@ -39,8 +78,25 @@ const Design = () => {
     
     <h1 className='text-center ' style={{marginTop: '150px', MarginBottom: '180px', fontFamily: 'Rubik Marker Hatch', color: '#2fa67b' }}>Design </h1>
 
-
-    <Carousel className='mt-5' style={{marginBottom: '100px'}}>
+    <div className='coursDispo' style={{marginBottom: '100px'}}>
+      <Slider {...settings}>
+      {dataDigitalBestSeller.map(item=>(
+           <div className='cardDispo'>
+           <div className='card-top'>
+            <img src={item.linkImg} alt={item.title}/>
+            <h1>{item.title}</h1>
+           </div>
+           <div className='card-bottom'>
+            <h3> {item.price} </h3>
+            <span className="category"> {item.category} </span>
+           </div>
+         </div>
+      ))}
+      </Slider>
+      
+     
+    </div>
+    {/* <Carousel className='mt-5' style={{marginBottom: '100px'}}>
         <Carousel.Item Interval={8000}>
     <div className='row ms-0 col-xs-12 col-lg-12  justify-content-center  pb-5 pt-5' style={{backgroundColor: '#d6d6d6'}}>
 
@@ -155,7 +211,7 @@ const Design = () => {
 
     </div>
     </Carousel.Item>
-    </Carousel>
+    </Carousel> */}
 
 
     
@@ -166,7 +222,7 @@ const Design = () => {
         </div>
 
 
-        <Carousel className='mt-5' style={{marginBottom: '100px'}}>
+        {/* <Carousel className='mt-5' style={{marginBottom: '100px'}}>
         <Carousel.Item Interval={8000}>
     <div className='row ms-0 col-xs-12 col-lg-12  justify-content-center  pb-5 pt-5' style={{backgroundColor: '#d6d6d6'}}>
 
@@ -281,8 +337,25 @@ const Design = () => {
 
     </div>
     </Carousel.Item>
-    </Carousel>
-       
+    </Carousel> */}
+       <div className='coursDispo' style={{marginBottom: '100px'}}>
+      <Slider {...settings}>
+      {dataDigitalBestSeller.map(item=>(
+           <div className='cardDispo'>
+           <div className='card-top'>
+            <img src={item.linkImg} alt={item.title}/>
+            <h1>{item.title}</h1>
+           </div>
+           <div className='card-bottom'>
+            <h3> {item.price} </h3>
+            <span className="category"> {item.category} </span>
+           </div>
+         </div>
+      ))}
+      </Slider>
+      
+     
+    </div>
      <Footer/>
     </>
   )

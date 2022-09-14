@@ -33,8 +33,9 @@ function Navbar() {
             <Link to="/" className="fw-bold fs-4" style={{color: '#fff', textDecoration: 'none'}}>MBSCHOOL</Link>
         </Link>
        
-        <div></div>
-        <div id="user" className='d-flex justify-content-end' style={avatar}>
+        
+        
+        <div id="user" className='d-flex justify-content-end ' style={avatar}>
         <Dropdown style={{marginRight: '60px', backgroundColor: '#2fa67b'}}>
             <Dropdown.Toggle style={{ backgroundColor: '#2fa67b', border: '1px solid #2fa67b'}} id="dropdown-basic" className='fw-bold fs-5'>
                 Connecter
